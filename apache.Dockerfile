@@ -8,6 +8,7 @@
 # Contributors:
 #   Red Hat, Inc. - initial API and implementation
 
+
 FROM docker.io/node:8.16.2-alpine as builder
 
 COPY package.json /workspace-loader/
